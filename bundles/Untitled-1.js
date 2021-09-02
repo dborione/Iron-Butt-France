@@ -1,0 +1,1 @@
+if(prop("Current Value") >= 100, "👍", replaceAll(replaceAll(slice(slice("##########", 0, floor(prop("Current Value") / 100 * 10)) + "==========", 0, 10), "#", "▓"), "=", "░") + " " + format(round(prop("Current Value") / 100 * 100)) + "%")
