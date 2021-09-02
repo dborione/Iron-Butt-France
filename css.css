@@ -36,9 +36,10 @@ h1 {
     font-size: 32px;
     text-transform: uppercase;
     color: black;
+    
 }
 
-header {
+.container {
     background-color: rgb(37, 255, 128);
     display: flex;
     flex-wrap: wrap;
