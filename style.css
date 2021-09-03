@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "04";
+    src: url(./fontes/04B_30__.woff);
+}
+
+@font-face {
+    font-family: "Legothick";
+    src: url("./fontes/Legothick.woff") format("woff");
+}
+
+@font-face {
+    font-family: "NeueHaasGroteskText-Bold";
+    src: url("./fontes/NeueHaasGroteskText-Bold.woff") format("woff");
+}
+
+body {
+    font-family: "NeueHaasGroteskText-Bold", Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: lightslategrey;
+}
+
+main {
+    background-color: lightgray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.top-logo {
+    
+}
+
+h1 {
+    font-family: "Legothick";
+    font-size: 32px;
+    text-transform: uppercase;
+    color: black;
+
+}
+
+.container {
+    background-color: rgb(37, 255, 128);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+nav ul li {
+    display: inline;
+    list-style: none;
+}
+
+nav ul li > a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+nav ul li > a:hover {
+    color: black;
+    font-size: 15px;
+}
+
+main section p img {
+    max-width:450px;
+    max-height:250px;
+    width: auto;
+    height: auto;
+}
+
+main section p img:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.articles-menu {
+    background-color: lightyellow;
+}
+
+.articles-menu ul > li {
+    list-style: none;
+}
+
+.social ul img {
+    max-width: 30px;
+    max-height: 30px;
+    width: auto;
+    height: auto;
+}
+
+.social > ul {
+    list-style: none;
+    display: inline;
+}
+
