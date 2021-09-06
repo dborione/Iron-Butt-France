@@ -13,6 +13,12 @@
     src: url("./fontes/NeueHaasGroteskText-Bold.woff") format("woff");
 }
 
+@font-face {
+    font-family: "GT-AMERICA-EXTENDED-BOLD";
+    src: url("./fontes/GT-AMERICA-EXTENDED-BOLD.woff") format("woff");
+}
+
+
 body {
     font-family: "NeueHaasGroteskText-Bold", Helvetica, sans-serif;
     font-size: 12px;
@@ -30,12 +36,12 @@ main {
     
 }
 
- /*h1 {
-    font-family: "Legothick";
-   font-size: 32px;
-    text-transform: uppercase;
+ .navbar-brand {
+    font-family: "GT-AMERICA-EXTENDED-BOLD";
+    /*font-size: 32px;
+    text-transform: uppercase;*/
     color: black;
-}*/
+}
 
 .nav-link {
     font-family: "Legothick";
