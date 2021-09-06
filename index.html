@@ -15,8 +15,8 @@
                     <!--toggler brand expand at md-->
             <nav class="navbar navbar-light bg-light navbar-expand-md">
                 <a class="navbar-brand" href="#">
-                    <img src="./images/Iron_Butt_Association_resize.png" alt="logo 1" class="d-inline-block align-top top-logo" width="50" height="50" alt="">
-                    Iron Butt Association France
+                    <img src="./images/Iron_Butt_Association_resize.png" alt="logo 1" class="d-inline-block align-top top-logo" width="15%" height="15%" alt="">
+                    Iron Butt Association France 
                 </a>
                 <!--<button class="navbar-toggle collapsed" 
                         type="button" 
@@ -35,16 +35,20 @@
                 <div class="collapse navbar-collapse" id="navbar-collapse">
                     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#ridescertifiées">Rides Certifiées</a>
+                            <a class="nav-link" href="#ridescertifiées">Rides Certifiees</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#Rallies">Rallies</a>
+                            <a class="nav-link" href="#Rallies">S'inscrire aux Rallies</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#Contact">Contact</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#social">Social</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#FAQ">FAQ</a>
+                            <!--Collapsed items-->
                         </li>
                     </ul>
                     <form class="form-inline my-2 my-lg-0">
@@ -57,12 +61,42 @@
   
 
     <main>
-        <section class="content">
-            <p class="images">
-                <img src="./images/riding-woman.jpg" alt="riding-woman">
-                <img src="./images/certificate.jpg" alt="certificate">
-                <img src="./images/Elspeth Beard.jpg" alt="certificate">
-            </p>
+        <section id="carousel-content" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-content" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-content" data-slide-to="1"></li>
+                <li data-target="#carousel-content" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <!--<p class="images img-fluid">-->
+                    <img class="d-block w-100" src="./images/riding-woman.jpg" alt="riding-woman">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Rides Certifiées</h5>
+                    </div>
+                    </p>
+                <div class="carousel-item">
+                    <!--<p class="images img-fluid">-->
+                    <img src="./images/certificate.jpg" alt="certificate">
+                        <h5>S'inscrire aux Rallies</h5>
+                    </p>
+                </div>
+                <div class="carousel-item">
+                    <!--<p class="images img-fluid">-->
+                    <img src="./images/Elspeth Beard.jpg" alt="Elspeth Beard">
+                </p>
+                </div>
+                    
+               
+            </div>
+            <a class="carousel-control-prev" href="#carousel-content" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carousel-content" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
         </section>
         <aside class="articles-menu">
             <ul>
