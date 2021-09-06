@@ -38,11 +38,11 @@ h1 {
 
 }
 
-.container {
+.navbar {
     background-color: rgb(37, 255, 128);
     display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+    /*flex-wrap: wrap;
+    justify-content: flex-start;*/
 }
 
 nav ul li {
@@ -60,6 +60,7 @@ nav ul li > a:hover {
     color: black;
     font-size: 15px;
 }
+
 
 main section p img {
     max-width:450px;
