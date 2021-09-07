@@ -30,9 +30,16 @@ main {
     
 }
 
-h1 {
+ /*h1 {
     font-family: "Legothick";
-    font-size: 32px;
+   font-size: 32px;
+    text-transform: uppercase;
+    color: black;
+}*/
+
+.nav-link {
+    font-family: "Legothick";
+    /*font-size: 32px;*/
     text-transform: uppercase;
     color: black;
 
@@ -61,6 +68,7 @@ nav ul li > a:hover {
     font-size: 15px;
 }
 
+images
 
 main section p img {
     max-width:450px;
