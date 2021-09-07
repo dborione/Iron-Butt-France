@@ -1,7 +1,3 @@
-@font-face {
-    font-family: "04";
-    src: url(./fontes/04B_30__.woff);
-}
 
 @font-face {
     font-family: "Legothick";
@@ -18,6 +14,25 @@
     src: url("./fontes/GT-AMERICA-EXTENDED-BOLD.woff") format("woff");
 }
 
+@font-face {
+    font-family: "Contender";
+    src: url("./fontes/Contenderfreeversion-eZ596.otf") format("woff");
+}
+
+@font-face {
+    font-family: "Soulmaze";
+    src: url("./fontes/MADE\ Soulmaze\ PERSONAL\ USE.otf") format("woff");
+}
+
+@font-face {
+    font-family: "Soulmaze Outline";
+    src: url("./fontes/MADE\ Soulmaze\ Outline\ PERSONAL\ USE.otf") format("woff");
+}
+
+@font-face {
+    font-family: "DMSans-Regular";
+    src: url("./fontes/DMSans-Regular.woff") format("woff");
+}
 
 body {
     font-family: "NeueHaasGroteskText-Bold", Helvetica, sans-serif;
@@ -36,11 +51,24 @@ main {
     
 }
 
-.navbar-brand {
+/*.navbar-brand {
     font-family: "GT-AMERICA-EXTENDED-BOLD";
     /*font-size: 32px;
-    text-transform: uppercase;*/
+    text-transform: uppercase;
     color: black;
+}*/
+
+.brand-name {
+    font-family: "Contender";
+    text-transform: uppercase;
+    font-size: 150%;
+    color: black;
+    padding: 5%;
+}
+
+.brand-name > a:hover{
+    font-family: "Soulm";
+    color: red;
 }
 
 .short-text {
@@ -52,12 +80,14 @@ main {
     .full-text {display: none;}
 }
 
-
+.navbar-nav {
+    padding-right: 10%;
+}
 
 .nav-link {
-    font-family: "Legothick";
-    /*font-size: 32px;*/
-    text-transform: uppercase;
+    font-family: "DMSans-Regular";
+    /*font-size: 32px;
+    text-transform: uppercase; */
     color: black;
 
 }
