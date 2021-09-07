@@ -51,6 +51,10 @@ main {
 
 }
 
+.nav-link > a:hover{
+    color: black;
+
+}
 .navbar {
     background-color: rgb(37, 255, 128);
     display: flex;
@@ -74,7 +78,6 @@ nav ul li > a:hover {
     font-size: 15px;
 }
 
-images
 
 main section p img {
     max-width:450px;
