@@ -36,12 +36,23 @@ main {
     
 }
 
- .navbar-brand {
+.navbar-brand {
     font-family: "GT-AMERICA-EXTENDED-BOLD";
     /*font-size: 32px;
     text-transform: uppercase;*/
     color: black;
 }
+
+.short-text {
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    .short-text {display: inline-block; }
+    .full-text {display: none;}
+}
+
+
 
 .nav-link {
     font-family: "Legothick";
