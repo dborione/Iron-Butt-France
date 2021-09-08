@@ -119,6 +119,15 @@ nav ul li {
     list-style: none;
 }
 
+.carousel-link {
+    color: white;
+    text-decoration: none;
+}
+
+.carousel-link:hover {
+    color: lightgray;
+    text-decoration: none;
+}
 
 .rally-bg {
     max-height: 15%;
