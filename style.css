@@ -119,20 +119,18 @@ nav ul li {
     list-style: none;
 }
 
-.rally-page-title {
-    font-family: "Soulmaze Outline";
-}
 
 .rally-bg {
     max-height: 15%;
 }
 
-.articles-menu {
-    background-color: lightyellow;
+.rally-page {
+    padding-top: 15%;
 }
 
-.articles-menu ul > li {
-    list-style: none;
+.rally-page-title {
+    padding-bottom: 15%;
+
 }
 
 .social ul img {
