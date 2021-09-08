@@ -42,8 +42,10 @@
 body {
     font-family: "NeueHaasGroteskText-Bold", Helvetica, sans-serif;
     font-size: 12px;
-    background-color: lightslategrey;
+    background-color: darkgrey;
+     
 }
+
 
 main {
     background-color: lightgray;
@@ -98,7 +100,6 @@ main {
     text-transform: uppercase; */
     color: black;
     text-decoration: none;
-
 }
 
 .nav-link > a:hover{
@@ -118,24 +119,18 @@ nav ul li {
     list-style: none;
 }
 
-main section p img {
-    max-width:450px;
-    max-height:250px;
-    width: auto;
-    height: auto;
+
+.rally-bg {
+    max-height: 15%;
 }
 
-main section p img:hover {
-    cursor: pointer;
-    opacity: 0.5;
+.rally-page {
+    padding-top: 15%;
 }
 
-.articles-menu {
-    background-color: lightyellow;
-}
+.rally-page-title {
+    padding-bottom: 15%;
 
-.articles-menu ul > li {
-    list-style: none;
 }
 
 .social ul img {
