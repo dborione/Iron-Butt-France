@@ -42,8 +42,10 @@
 body {
     font-family: "NeueHaasGroteskText-Bold", Helvetica, sans-serif;
     font-size: 12px;
-    background-color: lightslategrey;
+    background-color: darkgrey;
+     
 }
+
 
 main {
     background-color: lightgray;
@@ -98,7 +100,6 @@ main {
     text-transform: uppercase; */
     color: black;
     text-decoration: none;
-
 }
 
 .nav-link > a:hover{
@@ -107,7 +108,7 @@ main {
 }
 
 .navbar {
-    background-color: rgb(37, 255, 128);
+    /*background-color: rgb(37, 255, 128);*/
     display: flex;
     /*flex-wrap: wrap;
     justify-content: flex-start;*/
@@ -118,24 +119,27 @@ nav ul li {
     list-style: none;
 }
 
-main section p img {
-    max-width:450px;
-    max-height:250px;
-    width: auto;
-    height: auto;
+.carousel-link {
+    color: white;
+    text-decoration: none;
 }
 
-main section p img:hover {
-    cursor: pointer;
-    opacity: 0.5;
+.carousel-link:hover {
+    color: lightgray;
+    text-decoration: none;
 }
 
-.articles-menu {
-    background-color: lightyellow;
+.rally-bg {
+    max-height: 15%;
 }
 
-.articles-menu ul > li {
-    list-style: none;
+.rally-page {
+    padding-top: 15%;
+}
+
+.rally-page-title {
+    padding-bottom: 15%;
+
 }
 
 .social ul img {

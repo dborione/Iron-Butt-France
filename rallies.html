@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>IBA France</title>
+  <!-- Bootstrap CSS -->
+  <link href="bootstrap-4.4.1-dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Our CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+        <header>
+            <nav class="navbar navbar fixed-top navbar-dark bg-dark bg-transparent navbar-expand-lg" style="background-color: rgb(37, 255, 128);">
+                
+
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="file:///C:/Users/dbori/OneDrive/Documents/Graduate%20Full-Stack/Iron%20Butt%20France/index.html">
+                            <img src="./images/Iron_Butt_Association_resize.png" alt="logo 1" class="d-inline-block align-middle top-logo" width="15%" height="15%" alt="">
+                                <span class="brand-name full-text">Iron Butt Association France</span>
+                                <span class="brand-name short-text">IBA France</span>  
+                        </a>
+                    </div>
+            
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbar-collapse">
+                        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#ridescertifiées">Rides Certifiees</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="file:///C:/Users/dbori/OneDrive/Documents/Graduate%20Full-Stack/Iron%20Butt%20France/rallies.html">S'inscrire aux Rallies</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Contact">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#social">Social</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#FAQ">FAQ</a>
+                                <!--Collapsed items-->
+                            </li>
+                        </ul>
+                    
+<!--
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                    </div>
+                -->
+            </nav>   
+        </header>   
+  
+
+    <main>
+        <section class="rally-page"> 
+            <!--<div>
+                <img class="rally-bg images img-fluid d-block w-100" src="./images/solo-moto-1.jpg" alt="solo-moto-1">
+            </div>-->
+            <div class="text-center rally-page-title">
+                <h3>S'inscrire aux Rallies</h3>
+            </div>
+            <form class="needs-validation container" novalidate>
+                <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                    <label for="validationCustom01">Prénom</label>
+                    <input type="text" class="form-control" id="validationCustom01" value="Jean" required>
+                    <div class="valid-feedback">
+                        Parfait!
+                    </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                    <label for="validationCustom02">Nom</label>
+                    <input type="text" class="form-control" id="validationCustom02" value="Durand" required>
+                    <div class="valid-feedback">
+                        Parfait!
+                    </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                    <label for="validationCustom03">Ville</label>
+                    <input type="text" class="form-control" id="validationCustom03" required>
+                    <div class="invalid-feedback">
+                        Merci d'entrer un nom de ville valide.
+                    </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                    <label for="validationCustom04">Région</label>
+                    <select class="custom-select" id="validationCustom04" required>
+                        <option selected disabled value="">Choose...</option>
+                        <option>...</option>
+                    </select>
+                    <div class="invalid-feedback">
+                        Merci de sélectionner un nom de région valide.
+                    </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                    <label for="validationCustom05">Code postal</label>
+                    <input type="zip" class="form-control" id="validationCustom05" required>
+                    <div class="invalid-feedback">
+                        Merci d'entrer un code postal valide.
+                    </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                    <label class="form-check-label" for="invalidCheck">
+                        Agree to terms and conditions
+                    </label>
+                    <div class="invalid-feedback">
+                        You must agree before submitting.
+                    </div>
+                    </div>
+                </div>
+                <button class="btn btn-primary" type="submit">Submit form</button>
+                </form>
+
+                <script>
+                // Example starter JavaScript for disabling form submissions if there are invalid fields
+                (function() {
+                'use strict';
+                window.addEventListener('load', function() {
+                    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                    var forms = document.getElementsByClassName('needs-validation');
+                    // Loop over them and prevent submission
+                    var validation = Array.prototype.filter.call(forms, function(form) {
+                    form.addEventListener('submit', function(event) {
+                        if (form.checkValidity() === false) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                    });
+                }, false);
+                })();
+                </script>
+
+            <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                    <img src="..." class="rounded mr-2" alt="...">
+                    <strong class="mr-auto">Alerte</strong>
+                    <small>11 mins ago</small>
+                    <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="toast-body">
+                Bienvenue! Avez-vous pensé à vérifier les <a href="#FAQ">infos COVID-19</a> ?
+                </div>
+            </div>
+            
+        </section>
+        
+
+        <!--<aside class="articles-menu">
+            <ul>
+                <li>Mars 2020</li>
+                <li>Février 2020</li>
+                <li>Janvier 2020</li>
+                <li>Décembre 2019</li>
+                <li>Novembre 2019</li>
+                <li>Octobre 2019</li>
+                <li>Archives</li>
+            </ul>
+        </aside>-->
+
+    </main>
+
+    <footer class="footer">
+        <nav class="bottom-menu">
+            <ul>
+                <li>Home</li>
+                <li>A propos</li>
+                <li>Sponsors</li>
+                <li>Mes autres projets</li>
+            </ul>
+        </nav>
+        <div class="social">
+            <ul>
+                <li><img src="./images/logo-ig.png" alt="instagram"></li>
+                <li><img src="./images/logo-twitter-1.png" alt="twitter"></li>
+                <li><img src="./images/logo-behance.png" alt="behance"></li>
+            </ul>
+        </div>
+        <div class="copyright">
+            <p>@2020</p>
+        </div>
+        <div class="bottom-logo">
+            <img src="./images/648-300x300.jpg" alt="bottom logo">
+        </div>
+    </footer>
+    
+    
+</body>
+
+ <!-- jQuery -->
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+ <!-- Bootstrap JavaScript -->
+ <script src="bootstrap-4.4.1-dist/js/bootstrap.bundle.min.js"></script>
+</html>
