@@ -51,24 +51,12 @@ body {
     background-color: darkslategray;   
 }
 
-
 main {
     background-color: lightgray;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
 }
-
-.top-logo {
-    
-}
-
-/*.navbar-brand {
-    font-family: "GT-AMERICA-EXTENDED-BOLD";
-    /*font-size: 32px;
-    text-transform: uppercase;
-    color: black;
-}*/
 
 .brand-name {
     font-family: "Quarry-Digger";
@@ -95,6 +83,7 @@ main {
     .full-text {display: none;}
 }
 
+/* Nav */
 .navbar-header {
     width: 60vw;
 }
@@ -117,63 +106,16 @@ main {
 }
 
 .navbar {
-    /*background-color: rgb(37, 255, 128);*/
     display: flex;
-    /*flex-wrap: wrap;
-    justify-content: flex-start;*/
 }
 
 nav ul li {
     display: inline;
     list-style: none;
 }
+/* End Nav */
 
-/*
-.jumbotron {
-    background-image: url(./images/luggage-moto.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
-}
-
-.jumbotron h1{
-    font-family: "Windsor";
-    color: whitesmoke;
-    font-size: 80%;
-}
-
-.jumbotron p{
-    color: whitesmoke;
-    font-size: 40%;
-}
-
-.carousel-link {
-    color: white;
-    text-decoration: none;
-}
-
-.carousel-link:hover {
-    color: lightgray;
-    text-decoration: none;
-}
-
-
-.bg-1{
-    background-image: url(./images/luggage-moto.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.bg-2{
-    background-image: url(./images/solo-moto-1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 800px;
-}
-*/
-
+/* Hero */
 .hero-section-1 {
     background: url("./images/luggage-moto.jpg");
     background-size: cover;
@@ -232,7 +174,7 @@ nav ul li {
     padding-bottom: 15%;
     background-color: darkslategray;
 }
-
+/* End Hero */
 
 /* Rally Page */
 .rally-bg {
@@ -246,9 +188,9 @@ nav ul li {
 .rally-page-title {
     padding-bottom: 15%;
 }
-
 /* End Rally Page */
 
+/* Aside */
 aside {
     position: relative;
     margin-left: -18px;
@@ -272,7 +214,7 @@ aside ul li {
 a {
     font-weight: normal;
 }
-
+/* End Aside */
 
 .social ul img {
     max-width: 30px;
