@@ -190,6 +190,39 @@ nav ul li {
 }
 /* End Rally Page */
 
+.accordion {
+    max-width: 100vw;
+    background-color: darkslategray;
+    /*font-size: 32px;
+    text-transform: uppercase; */
+}
+
+.card{
+    border: none;
+}
+
+.collapse {
+    font-family: "DMSans-Regular";
+    color: black;
+    text-decoration: none;
+}
+
+.collapse.show {
+    font-family: "DMSans-Regular";
+    color: black;
+    text-decoration: none;
+}
+
+.btn-link {
+    color: black;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    color: black;
+    text-decoration: none;
+}
+
 /* Aside */
 aside {
     position: relative;
