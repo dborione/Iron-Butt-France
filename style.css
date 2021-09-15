@@ -151,7 +151,12 @@ nav ul li {
     padding-top: 15%;
     padding-bottom: 15%;
 }
-
+/*
+.hero-section-p-2 {
+    text-align: justify;
+    text-justify: inter-word;
+}
+*/
 .hero-section-3 {
     background: url("./images/solo-moto-1.jpg");
     background-size: cover;
@@ -172,6 +177,7 @@ nav ul li {
     padding-top: 15%;
     padding-bottom: 15%;
 }
+
 
 .hero-section-4 { 
     padding-top: 15%;
