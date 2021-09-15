@@ -186,7 +186,19 @@ nav ul li {
 }
 
 .rally-page {
+    font-family: "DMSans-Regular"; 
+    background-color: darkslategray;
     padding-top: 15%;
+    max-width: 100vw;
+}
+
+.rally-page {
+    max-width: 100vw;
+}
+
+.rally-card-title{
+    font-family: "DMSans-Regular"; 
+    font-size:150%;
 }
 
 .rally-page-title {
@@ -260,26 +272,45 @@ nav ul li {
     box-shadow: rgba(0, 0, 0, .2) 0 0 0 1000000px inset; 
 }
 
-.rides-section {
+.rides-section-main {
     background-color: darkslategray;
-    max-width: 200%;
-    padding-top: 14vh;
+    max-width: 100vw;
+    padding-top: 9vh;
     align-content:center;
 }
 
-.scroll-snap-type {
+.rides-section {
+    max-width: 100vw;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.scroll-snap-container {
     display: flex;
     overflow-y: auto;
     scroll-snap-type: y mandatory;
-    scroll-snap-type: y;   
+    scroll-snap-type: y;
+    height: 100vh;   
 }
 
+/*
+.scroll-snap-container {
+    display:  grid; 
+    justify-content: center; 
+    grid-gap: 10px;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+*/
 
 .scroll-item {
     scroll-snap-align: center;
     scroll-snap-stop: always;
 }
 
+
+/*
 .card-body-rides {
     padding-top: 25%;
     text-align: center;
@@ -333,5 +364,6 @@ a {
 
 html {
     scroll-behavior:smooth;
+    
 }
 
