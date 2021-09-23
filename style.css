@@ -159,7 +159,7 @@ nav ul li {
   
 .hero-section-text-1 {
     font-family: "Soulmaze Outline Italic";
-    font-size: 350%; 
+    font-size: 225%;
     padding-top: 15%;
     padding-bottom: 15%;
 }
@@ -193,6 +193,7 @@ nav ul li {
   
 .hero-3-title {
     font-family: "Soulmaze OUtline Italic";
+    font-size: 250%;
     font-weight: lighter;
     text-shadow: 1px 1px 2px #0a0a0a;
 }
