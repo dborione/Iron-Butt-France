@@ -54,6 +54,11 @@
     src: url("./fontes/Windsor\ Regular.ttf") format("woff");
 }
 
+@font-face {
+    font-family: "Monthoers";
+    src: url("./fontes/Monthoers.otf") format("woff");
+}
+
 body {
     padding-top: 8vh;
     font-family: "NeueHaasGroteskText-Bold", Helvetica, sans-serif;
@@ -63,27 +68,35 @@ body {
 
 main {
     background-color: lightgray;
+    font-style: bolder;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
 }
 
 .brand-name {
-    font-family: "Quarry-Digger";
+    font-family: "DMSans-Regular";
+    font-weight: bold;
     text-transform: uppercase;
-    font-size: 80%;
+    font-size: 90%;
     color: whitesmoke;
     padding: 5%;
 }
 
 .brand-name:hover {
-    font-family: "Quarry-Digger";
+    font-family: "DMSans-Regular";
+    font-weight: bold;
     text-transform: uppercase;
-    font-size: 80%;
+    font-size: 90%;
     color: lightgray;
     padding: 5%;
 }
 
+.top-logo {
+    padding-left: 5%;
+    max-width:5vw; 
+    max-height:5vh; 
+}
 .short-text {
     display: none;
 }
@@ -145,7 +158,8 @@ nav ul li {
   }
   
 .hero-section-text-1 {
-    font-family: "Soulmaze Outline"; 
+    font-family: "Soulmaze Outline Italic";
+    font-size: 350%; 
     padding-top: 15%;
     padding-bottom: 15%;
 }
@@ -177,8 +191,9 @@ nav ul li {
     padding-bottom: 50%;
   }
   
-.hero-section-3 h1 {
-    color: #fefefe;
+.hero-3-title {
+    font-family: "Soulmaze OUtline Italic";
+    font-weight: lighter;
     text-shadow: 1px 1px 2px #0a0a0a;
 }
   
@@ -205,14 +220,21 @@ nav ul li {
     font-family: "DMSans-Regular"; 
     background-color: darkslategray;
     max-width: 100vw;
-    padding-top: 18vh;
 }
 
 @media (max-width:426px) {
-    .rally-page {padding-top: 7vh;}
+    .rally-page {padding-top: 6vh;}
+}
+
+@media (min-width:321px) {
+    .rally-page {padding-top: 3vh;}
 }
 
 @media (max-width:769px) {
+    .rally-page {padding-top: 19vh;}
+}
+
+@media (min-width:770px) {
     .rally-page {padding-top: 18vh;}
 }
 /*
@@ -302,32 +324,6 @@ nav ul li {
     padding-right: 15%;  
 }
 
-/*
-.scroll-snap-container {
-    display: flex;
-    overflow-y: auto;
-    scroll-snap-type: y mandatory;
-    scroll-snap-type: y;
-    height: 100vh;   
-}
-
-/*ignore this
-.scroll-snap-container {
-    display:  grid; 
-    justify-content: center; 
-    grid-gap: 10px;
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
-    height: 100vh;
-}
-ignore this
-
-.scroll-item {
-    scroll-snap-align: center;
-    scroll-snap-stop: always;
-}
-*/
-
 .card-body-rides {
     padding-top: 10%;
     max-width: 100%;
@@ -342,33 +338,6 @@ ignore this
     font-size: 150%;
 }
 
-/*
-@media (max-width: 576px) { 
-    .card-body-rides {font-size: .5 rem;}
-}
-
-@media (min-width: 576px) { 
-    .card-body-rides {font-size: 1 rem;}
-}
-
-  
-@media (max-width: 575.98px) {
-   .card-body-rides {font-size:.4rem;} 
-}
-  
-@media (min-width: 768px) { 
-    .card-body-rides {font-size: 1rem; }
-}
-  
-@media (min-width: 992px) { 
-    .card-body-rides {font-size: 1.8rem; }
-}
-  
-@media (min-width: 1200px) { 
-    .card-body-rides {font-size: 2rem;}
-}
-*/
-
 .card-img {
     object-fit: cover;
 } 
@@ -376,11 +345,7 @@ ignore this
 .cards {
     height: 100vh;
 }
-/*
-@media (max-width:1000px) {
-    .cards {height: 450px;}
-}
-*/
+
 .card-img:hover {
     filter: grayscale(100%);
 } 
@@ -395,6 +360,7 @@ ignore this
 .card-number:hover {
     font-family:"Soulmaze Italic";
 }
+/* Rides Page */
 
 /* Aside */
 aside {
