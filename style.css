@@ -267,19 +267,14 @@ nav ul li {
 /* End FAQ Page */
 
 
-/*.ride-card {
-    width: 350px;
-    height: 600px;
-}
-.card-img {
-    height:100%;
-    width: 100%; 
-   
-}
-*/
+/* Rides Page */
 .ride-card {
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 
     0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-overlay + :not(.card-body-rides):hover{
+    font-family:"Soulmaze Italic";
 }
 
 .card-img-overlay {
@@ -295,7 +290,6 @@ nav ul li {
     padding-left: 15%;
     padding-right: 15%;  
 }
-
 
 /*
 .scroll-snap-container {
@@ -329,6 +323,15 @@ ignore this
     max-height: 100%;
 }
 
+.card-title {
+    font-size: 250%;
+}
+
+.card-text {
+    font-size: 150%;
+}
+
+/*
 @media (max-width: 576px) { 
     .card-body-rides {font-size: .5 rem;}
 }
@@ -337,7 +340,7 @@ ignore this
     .card-body-rides {font-size: 1 rem;}
 }
 
-/*  
+  
 @media (max-width: 575.98px) {
    .card-body-rides {font-size:.4rem;} 
 }
