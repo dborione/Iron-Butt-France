@@ -204,16 +204,26 @@ nav ul li {
 .rally-page {
     font-family: "DMSans-Regular"; 
     background-color: darkslategray;
-    padding-top: 15%;
     max-width: 100vw;
+    padding-top: 18vh;
 }
 
-.rally-page {
-    max-width: 100vw;
+@media (max-width:426px) {
+    .rally-page {padding-top: 7vh;}
 }
 
+@media (max-width:769px) {
+    .rally-page {padding-top: 18vh;}
+}
+/*
 .rally-card-title{
     font-family: "DMSans-Regular"; 
+    font-size:150%;
+}
+*/
+.rally-card-title{
+    font-family: "Soulmaze Outline Italic"; 
+    font-weight: bold;
     font-size:150%;
 }
 
