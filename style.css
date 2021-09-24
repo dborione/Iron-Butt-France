@@ -164,6 +164,10 @@ nav ul li {
     padding-bottom: 15%;
 }
 
+@media (min-width:999px) {
+    .hero-section-text-1 {font-size: 360%;}
+}
+
 .hero-section-2 { 
     padding-top: 15%;
     padding-bottom: 15%;
@@ -171,7 +175,8 @@ nav ul li {
 }
 
 .hero-section-text-2 {
-    font-family: "Windsor"; 
+    font-family: "DMSans-Regular";
+    font-weight: bold; 
     padding-top: 15%;
     padding-bottom: 15%;
 }
@@ -365,7 +370,7 @@ nav ul li {
 
 /* Aside */
 aside {
-    position: relative;
+    position: fixed;
     margin-left: -18px;
     display: flex;
     align-items: flex-end;
